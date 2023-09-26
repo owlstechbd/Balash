@@ -1,0 +1,169 @@
+@media only screen and (max-width: 764px){
+    .logo {
+        width: 16%;
+    }
+    .text h1 {
+        
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .text h2{
+        margin-top: 50px;
+    }
+    .menu {
+        width: 84%;
+    }
+    .menu ul li {
+        margin-left: 23px;
+    }
+   
+    .menu ul li a {
+        font-size: 14px;
+    }
+    .desktop-menu{
+        background-color: #F2F2F2;
+    }
+    .white-color{
+        color: #000;
+    }
+    
+}
+
+
+@media screen and (max-width: 720px){
+
+
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+    #background-video{
+        height: 60vh;
+    }
+    #navbar{
+        width: 100%;
+        z-index: 99999999999;
+        background: #fff;
+
+        position: fixed;
+    }
+    .navbar-brand img{
+        width: 80px;
+    }
+    .navbar-nav a{
+        color: #76cef1;
+    }
+    li.nav-item {
+        margin-top: 15px;
+    }
+    .language-mobile{
+        margin-top: 20px;
+    }
+    .language-mobile li{
+        color: #000;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    .language-mobile li a{
+        color: #76cef1;
+       
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .text {
+        padding: 30px 11px;
+        width: 100%;
+    }
+    .text h1 {
+        font-size: 27px;
+    }
+    .text h2 {
+        font-size: 20px;
+    }
+    #about {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .about-content h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .dis-flex{
+        flex-direction: column;
+    }
+    .ad-logo{
+        text-align: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .container2{
+        width: 100%;
+    }
+    .add-title-content{
+        width: 100%;
+    }
+
+    .add-icon-box{
+        flex-direction: column;
+    }
+    .add-icon{
+        width: 100%;
+        text-align: center;
+    }
+    .add-content{
+        text-align: center;
+        width: 100%;
+    }
+    .ad-video video{
+        margin-top: 30px;
+    }
+    .accordion-item-header h3 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #535353;
+    }
+    .tab-list{
+        width: 100%;
+    }
+    .contact-from{
+        width: 100%;
+    }
+
+
+
+
+    #footer{
+        padding: 50px 0;
+    }
+    .footer-center{
+        padding-left: 0;
+    }
+    .footer-center h3{
+        margin-top: 20px;
+    }
+    .footer-right h3{
+        margin-top: 20px;
+    }
+    #footer-bottom p {
+        color: #fff;
+        font-size: 18px;
+    }
+    .arbic-page .who-left p {
+        padding-right: 55px;
+    }
+    .arbic-page .section-detailes p {
+        padding-right: 55px;
+    }
+
+}
+
+
+
+
+
