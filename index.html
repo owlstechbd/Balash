@@ -14,7 +14,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
 	<!-- google Font  -->
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 	<!-- Font awesome -->
 	<script src="https://kit.fontawesome.com/b2b7d27ef0.js" crossorigin="anonymous"></script>
 	<link rel="SHORTCUT ICON" href="images/fav.png" />
@@ -25,9 +26,6 @@
 	<!-- desktop-menu-start -->
 	<div class="desktop-menu bgcolor">
 		<div class="top-header">
-			<div class="logo">
-				<img src="images/footer-logo.png" alt="">
-			</div>
 			<div class="language">
 				<ul>
 
@@ -37,14 +35,20 @@
 			</div>
 
 		</div>
-		<div class="menu">
-			<ul>
-				<li><a href="#slider-area" class="white-color cng-color">Home</a></li>
-				<li><a href="#advertise" class="white-color cng-color">Advertise</a></li>
-				<li><a href="#charity" class="white-color cng-color">Charity</a></li>
-				<li><a href="#faq" class="white-color cng-color">FAQ</a></li>
-				<li><a href="#conatct" class="white-color cng-color">Get a Quote</a></li>
-			</ul>
+		<div class="container">
+			<div class="menu">
+				<ul>
+					<li><a href="#slider-area" class="white-color cng-color">Home</a></li>
+					<li><a href="#advertise" class="white-color cng-color">Advertise</a></li>
+					<li><a href="#charity" class="white-color cng-color">Charity</a></li>
+					<li><a href="index.html" class="white-color cng-color"><img src="images/logo.png" alt=""></a></li>
+					<li><a href="#faq" class="white-color cng-color">FAQ</a></li>
+					<li><a href="#conatct"  class="tablinks" onclick="openCity(event, 'Quote')">Get a Quote</a></li>
+					<li><a href="#conatct"  class="tablinks" onclick="openCity(event, 'ContactUs')">Contact</a></li>
+					
+					
+				</ul>
+			</div>
 		</div>
 
 	</div>
@@ -56,7 +60,7 @@
 		<section id="navbar">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
-					<a class="navbar-brand" href="index.html"><img src="images/footer-logo.png"></a>
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
 						data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation">
@@ -104,21 +108,14 @@
 		</video>
 		<div class="text">
 			<div class="hero-btn">
-				<a href="#">Advertise with us</a>
+				<a href="#about">Advertise with us</a>
 			</div>
 		</div>
 	</section>
 
 	<!-- video-part-end -->
 
-	<!-- fixed-whatsapp-phone -->
-	<div class="fixed-whatsapp">
-		<a href="https://wa.me/+96895333525"><img src="images/icon/whatsapp.png" alt=""></a>
-	</div>
-	<div class="fixed-phone">
-		<a href="tel:+96895333525"><img src="images/icon/phone-call.png" alt=""></a>
-	</div>
-	<!-- fixed-whatsapp-phone -->
+	
 
 
 	<section id="about" class=" wow fadeInUp" data-wow-delay=".9s"">
@@ -147,7 +144,7 @@
 
 			<div class="advertise-title dis-flex">
 				<div class="ad-logo">
-					<img src="images/footer-logo.png" alt="">
+					<img src="images/logo.png" alt="">
 				</div>
 				<div class="add-title-content">
 					<h2>The Happier, Smarter Way to Advertise</h2>
@@ -163,7 +160,7 @@
 				<div class="col-md-6">
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/ac-gas-filling.png" alt="">
+							<img src="images/icon/tangible-interaction.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Tangible Interaction</h3>
@@ -175,7 +172,7 @@
 
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/battery-replacement.png" alt="">
+							<img src="images/icon/necessity-driven.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Necessity Driven</h3>
@@ -187,16 +184,26 @@
 
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/car-diagnostic.png" alt="">
+							<img src="images/icon/sustainability-appeal.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Sustainability Appeal</h3>
 							<p>Align your brand with eco-friendly values for a better brand image</p>
 						</div>
 					</div><!-- add-icon-box -->
+
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/ac-gas-filling.png" alt="">
+							<img src="images/icon/high-engagement.svg" alt="">
+						</div>
+						<div class="add-content">
+							<h3>High Engagement</h3>
+							<p>People spend minutes, not seconds, with our bottles, offering extended exposure for your ad</p>
+						</div>
+					</div><!-- add-icon-box -->
+					<div class="add-icon-box">
+						<div class="add-icon">
+							<img src="images/icon/geo-targeting.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Geo-Targeting</h3>
@@ -207,7 +214,7 @@
 
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/battery-replacement.png" alt="">
+							<img src="images/icon/qr-code-analytics.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>QR Code Analytics </h3>
@@ -219,7 +226,7 @@
 
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/car-diagnostic.png" alt="">
+							<img src="images/icon/social-sharing.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Social Sharing </h3>
@@ -228,7 +235,7 @@
 					</div><!-- add-icon-box -->
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/ac-gas-filling.png" alt="">
+							<img src="images/icon/low-ad-avoidance.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Low Ad Avoidance </h3>
@@ -239,7 +246,7 @@
 
 					<div class="add-icon-box">
 						<div class="add-icon">
-							<img src="images/icon/battery-replacement.png" alt="">
+							<img src="images/icon/cost-sharing-option.svg" alt="">
 						</div>
 						<div class="add-content">
 							<h3>Cost Sharing Option</h3>
@@ -248,17 +255,6 @@
 						</div>
 					</div><!-- add-icon-box -->
 
-
-					<div class="add-icon-box">
-						<div class="add-icon">
-							<img src="images/icon/car-diagnostic.png" alt="">
-						</div>
-						<div class="add-content">
-							<h3>Tangible Interaction</h3>
-							<p>Our water bottles are hands-on, increasing the chances your ad makes a lasting impression
-							</p>
-						</div>
-					</div><!-- add-icon-box -->
 				</div>
 				<div class="col-md-6">
 					<div class="ad-video">
@@ -272,7 +268,7 @@
 				</div>
 			</div>
 			<div class="gobal-btn center-div">
-				<a href="#">Get a Quote </a>
+				<a href="#conatct">Get a Quote </a>
 			</div>
 		</div><!-- container -->
 	</section><!-- advertise -->
@@ -299,26 +295,26 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12 mar-box">
 					<div class="charity-icon-box">
-						<img src="images/icon/icon1.png" alt="">
+						<img src="images/icon/clean-water-access.svg" alt="">
 						<h2>Clean Water Access</h2>
-						<p><span>1.Drilling Wells:</span> Building deep or shallow wells to provide a reliable source of
+						<p><span>Drilling Wells:</span><br> Building deep or shallow wells to provide a reliable source of
 							clean water.</p>
-						<p><span>2.Spring Protection:</span> Protecting natural springs from contamination to ensure the
+						<p><span>Spring Protection:</span><br> Protecting natural springs from contamination to ensure the
 							community has access to clean water.</p>
-						<p><span> 3.Rainwater Harvesting:</span> Building systems to collect and store rainwater for
+						<p><span> Rainwater Harvesting:</span><br> Building systems to collect and store rainwater for
 							community use.</p>
 					</div>
 				</div>
 
 				<div class="col-lg-4 col-md-6 col-sm-12 mar-box">
 					<div class="charity-icon-box">
-						<img src="images/icon/icon1.png" alt="">
+						<img src="images/icon/sanitation-hygiene.svg" alt="">
 						<h2>Sanitation and Hygiene</h2>
-						<p><span>4. Building Toilets:</span> Creating sanitation facilities to reduce open defecation
+						<p><span>Building Toilets:</span><br> Creating sanitation facilities to reduce open defecation
 							and the spread of disease.</p>
-						<p><span>5. Hygiene Education:</span> Educating communities about the importance of good hygiene
+						<p><span>Hygiene Education:</span><br> Educating communities about the importance of good hygiene
 							practices like handwashing.</p>
-						<p><span>6. Sanitation Infrastructure:</span> Developing or improving sewage and waste treatment
+						<p><span>Sanitation Infrastructure:</span><br> Developing or improving sewage and waste treatment
 							facilities.</p>
 
 					</div>
@@ -326,24 +322,24 @@
 
 				<div class="col-lg-4 col-md-6 col-sm-12 mar-box">
 					<div class="charity-icon-box">
-						<img src="images/icon/icon1.png" alt="">
+						<img src="images/icon/water-quality.svg" alt="">
 						<h2>Water Quality</h2>
-						<p><span>1. Water Treatment:</span> Providing communities with water purifiers, filters, or
+						<p><span>Water Treatment:</span><br> Providing communities with water purifiers, filters, or
 							chlorine tablets.</p>
-						<p><span>2. Water Quality Testing:</span> Regularly testing water sources for contaminants like
+						<p><span>Water Quality Testing:</span><br> Regularly testing water sources for contaminants like
 							bacteria, heavy metals, and pollutants.</p>
-						<p><span>3. Maintenance:</span> Regular upkeep of wells, pumps, and other water supply
+						<p><span>Maintenance:</span><br> Regular upkeep of wells, pumps, and other water supply
 							infrastructure.</p>
 
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12 mar-box">
 					<div class="charity-icon-box">
-						<img src="images/icon/icon1.png" alt="">
+						<img src="images/icon/disaster-relief.svg" alt="">
 						<h2>Disaster Relief</h2>
-						<p><span>1. Emergency Water Supply:</span> Providing temporary water supplies in disaster-struck
+						<p><span>Emergency Water Supply:</span><br> Providing temporary water supplies in disaster-struck
 							areas through tanker trucks or water bladders.</p>
-						<p><span>2. Sanitation in Emergencies:</span> Setting up temporary sanitation facilities in
+						<p><span>Sanitation in Emergencies:</span><br> Setting up temporary sanitation facilities in
 							disaster or conflict zones.</p>
 
 					</div>
@@ -351,11 +347,11 @@
 
 				<div class="col-lg-4 col-md-6 col-sm-12 mar-box">
 					<div class="charity-icon-box">
-						<img src="images/icon/icon1.png" alt="">
+						<img src="images/icon/capacity-building.svg" alt="">
 						<h2>Capacity Building</h2>
-						<p><span>1. Training and Skills Transfer:</span> Educating local communities to manage and
+						<p><span>Training and Skills Transfer:</span><br> Educating local communities to manage and
 							maintain water and sanitation facilities.</p>
-						<p><span>2. Community Mobilization:</span> Empowering communities to take ownership of water and
+						<p><span>Community Mobilization:</span><br> Empowering communities to take ownership of water and
 							sanitation projects for long-term sustainability.</p>
 
 					</div>
@@ -363,11 +359,11 @@
 
 				<div class="col-lg-4 col-md-6 col-sm-12 mar-box">
 					<div class="charity-icon-box">
-						<img src="images/icon/icon1.png" alt="">
+						<img src="images/icon/water-agriculture.svg" alt="">
 						<h2>Water for Agriculture</h2>
-						<p><span>1. Irrigation Solutions:</span> Providing efficient irrigation technologies for farming
+						<p><span>Irrigation Solutions:</span><br> Providing efficient irrigation technologies for farming
 							communities.</p>
-						<p><span>2. Sustainable Practices:</span> Educating farmers on water-saving techniques and
+						<p><span>Sustainable Practices:</span><br> Educating farmers on water-saving techniques and
 							sustainable agricultural practices.</p>
 
 					</div>
@@ -1069,7 +1065,9 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="footer-left">
-						<img src="images/logo.png" alt="">
+						<div class="footer-logo">
+							<img src="images/logo.png" alt="">
+						</div>
 						<h2><span>EXP</span>ERTISE YOU CAN TRUST
 						</h2>
 						<ul>

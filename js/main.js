@@ -25,6 +25,23 @@ $('.nav-item a[href^="#"]').click(function(e) {
   },500);
 });
 
+// scrolling menu
+$('.gobal-btn a[href^="#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $('html, body').animate({
+    scrollTop: $(target).offset().top -100
+  },500);
+});
+// scrolling menu
+$('.hero-btn a[href^="#"]').click(function(e) {
+  e.preventDefault();
+  var target = this.hash;
+  $('html, body').animate({
+    scrollTop: $(target).offset().top -100
+  },500);
+});
+
 
 
 
@@ -70,6 +87,8 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
 
 
 

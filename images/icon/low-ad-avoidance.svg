@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#76CEF1;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#76CEF1;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#76CEF1;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:31.3888,31.3888;}
+	.st3{fill:none;stroke:#76CEF1;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:31.1385,31.1385;}
+</style>
+<path class="st0" d="M813.23,439.57c0-138.29,0-222.99,0-222.99L512,87L210.77,216.57c0,0,0,108.84,0,283.33S255.21,822.98,512,937
+	c256.79-114.02,301.23-262.6,301.23-437.09"/>
+<g>
+	<g>
+		<path class="st1" d="M525.85,850.04c-4.54,2.34-9.16,4.65-13.85,6.95c-4.7-2.3-9.31-4.62-13.85-6.95"/>
+		<path class="st2" d="M470.56,835.06c-66.83-38.36-113.93-81.51-143.02-130.79c-31.02-52.55-44.25-113.67-44.25-204.36V295.52"/>
+		<polyline class="st1" points="283.29,279.83 283.29,264.33 297.53,258.2 		"/>
+		<line class="st3" x1="326.13" y1="245.9" x2="483.46" y2="178.23"/>
+		<polyline class="st1" points="497.76,172.07 512,165.95 526.24,172.07 		"/>
+		<line class="st3" x1="554.84" y1="184.38" x2="712.17" y2="252.05"/>
+		<polyline class="st1" points="726.47,258.2 740.71,264.33 740.71,279.83 		"/>
+		<path class="st2" d="M740.71,311.22v188.69c0,90.69-13.23,151.81-44.25,204.36c-31.04,52.59-82.58,98.19-156.73,138.44"/>
+	</g>
+</g>
+<line class="st0" x1="342.56" y1="607.67" x2="681.44" y2="326.68"/>
+<g>
+	<g>
+		<line class="st0" x1="649.79" y1="326.68" x2="649.79" y2="590.92"/>
+		<path class="st0" d="M649.79,560.98c-11.88,18.04-32.31,29.94-55.53,29.94c-36.69,0-66.43-29.74-66.43-66.43
+			s29.74-66.43,66.43-66.43c23.22,0,43.65,11.9,55.53,29.94"/>
+	</g>
+	<g>
+		<polyline class="st0" points="517.56,590.92 441.09,343.43 364.62,590.92 		"/>
+		<line class="st0" x1="402.05" y1="469.77" x2="480.13" y2="469.77"/>
+	</g>
+</g>
+</svg>
