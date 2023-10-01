@@ -6,7 +6,7 @@ $(window).scroll(function(){
 $(window).scroll(function(){
   $('.white-color').toggleClass('scrolled2',$(this).scrollTop()>50);
 })
-
+ 
 
 // scrolling menu
 $('.menu a[href^="#"]').click(function(e) {
@@ -17,7 +17,7 @@ $('.menu a[href^="#"]').click(function(e) {
   },500);
 });
 // scrolling menu
-$('.nav-item a[href^="#"]').click(function(e) {
+$('.mobile-iteam a[href^="#"]').click(function(e) {
   e.preventDefault();
   var target = this.hash;
   $('html, body').animate({
@@ -81,9 +81,20 @@ function openCity(evt, cityName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
+
+  // New code to add the "active" class to the correct button element
+  var buttons = document.querySelectorAll('.tab button');
+  for (i = 0; i < buttons.length; i++) {
+    if (buttons[i].getAttribute('onclick').includes(cityName)) {
+      buttons[i].className += " active";
+      break;
+    }
+  }
+
   document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
 }
+
+
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
@@ -91,7 +102,15 @@ document.getElementById("defaultOpen").click();
 
 
 
+document.querySelectorAll('.menu-item').forEach(function(item, index) {
+  item.addEventListener('click', function() {
+    var boxes = document.querySelectorAll('.content-box');
+    boxes.forEach(box => box.classList.remove('active2'));
 
+    var selectedBox = document.getElementById('box' + (index + 1));
+    selectedBox.classList.add('active2');
+  });
+});
 
 // animation
 
