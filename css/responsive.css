@@ -1,3 +1,11 @@
+@media (min-width: 1300px) and (max-width: 1700px){
+    .ad-video video {
+        width: 100%;
+        margin: 20px 0;
+        height: 550px;
+        margin-bottom: 60px;
+    }
+}
 @media only screen and (max-width: 764px){
     .logo {
         width: 16%;
@@ -122,6 +130,8 @@
     }
     .ad-video video{
         margin-top: 30px;
+        height: auto;
+        margin-bottom: 10px;
     }
     .accordion-item-header h3 {
         font-size: 20px;
@@ -159,6 +169,19 @@
     }
     .arbic-page .section-detailes p {
         padding-right: 55px;
+    }
+    .advertise-title{
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .ad-logo{
+        margin-top: 0;
+    }
+    .add-title-content h2{
+        font-size: 30px;
+    }
+    .mar-top{
+        margin-top: 100px;
     }
 
 }
